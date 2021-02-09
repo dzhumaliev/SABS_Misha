@@ -1,0 +1,107 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">SABS</string>
+
+    <string name="cash_box">Касса</string>
+    <string name="statistics">Статистика</string>
+    <string name="receipt">Чек</string>
+    <string name="reports">Отчеты</string>
+    <string name="still">Профиль</string>
+
+    <string name="title_login">Войти в систему</string>
+    <string name="mail_login">"Электронная почта"</string>
+    <string name="password_login">"Пароль"</string>
+    <string name="hint_login">ivanov@gmail.com</string>
+    <string name="hint_password">не менее 6 символов</string>
+    <string name="input_login">Войти</string>
+
+    <!--Табы-->
+    <string name="tab_statistics">Статистика</string>
+    <string name="tab_revenue_by_the_hour">Выручка по часам</string>
+
+    <string name="tab_abolition">Отмены</string>
+    <string name="tab_top_selling">Топ продаваемых</string>
+
+    <string name="tab_dishes_sold">Проданных блюд</string>
+    <string name="tab_stock">Склад - осталось</string>
+
+    <!--    Интерфейс-->
+    <string name="text_calendar">Выбрать дату</string>
+    <string name="sort_title">Сортировать по</string>
+    <string name="sort_name">Названию</string>
+    <string name="sort_quantity">Количеству</string>
+    <string name="total_sold_for">Всего продано на сумму:</string>
+    <string name="total_cancels">Всего отменено:</string>
+
+    <!--    Products-->
+    <string name="time">Время</string>
+    <string name="dish">Блюдо</string>
+    <string name="drove">Вбил</string>
+    <string name="annulled">Отменил</string>
+    <string name="quantity">Кол-во</string>
+    <string name="price">Цена</string>
+
+
+    <string name="sum_receipt">Сумма чека</string>
+    <string name="closed">Закрытие</string>
+    <string name="fio">Ф.И.О</string>
+    <string name="number">Номер</string>
+
+    <!--    Профиль-->
+    <string name="profile">Профиль</string>
+    <string name="balance">Ваш баланс</string>
+    <string name="purse">524 000 KGS</string>
+    <string name="tphone">Номер телефона</string>
+    <string name="phone">+996 555 55 55 55</string>
+    <string name="tmail">e-mail</string>
+    <string name="mail">mail@sabs.com</string>
+    <string name="tp_restaurant">Мои Рестораны</string>
+    <string name="add_phone_number">Добавить номер телефона</string>
+    <string name="add_restaurant">Добавить ресторан</string>
+    <string name="replenish_balance">Пополнить баланс</string>
+
+    <!--    Настройки-->
+    <string name="title_setting">Настройки</string>
+    <string name="edit_password">Смена пароля</string>
+    <string name="current_password">Текущий пароль</string>
+    <string name="new_password">Новый пароль</string>
+    <string name="confirm_password">Повторите новый пароль</string>
+    <string name="save">Сохранить</string>
+    <string name="delete">Удалить ресторан</string>
+
+    <!--    Редактирование ресторана-->
+    <string name="title_ed_restaurant">Название</string>
+    <string name="id_ed_restaurant">ID</string>
+    <string name="login_ed_restaurant">Логин</string>
+    <string name="password_ed_restaurant">Пароль</string>
+
+    <!--    Лист Профиль-->
+    <string name="tl_profile">Фейжоада</string>
+    <string name="dlp_profile">до 29.09.2020</string>
+    <string name="balance_profile">2000</string>
+
+    <!--    Мусор-->
+    <string name="receipt_title">Средний чек</string>
+    <string name="totalAmount">Чеков</string>
+    <string name="guestCount">Посетители</string>
+    <string name="checkCount">Выручка</string>
+    <string name="openTables">Открытые столы</string>
+    <string name="closeTables">Закрытые столы</string>
+    <string name="receipt_value">54 000 KGS</string>
+    <string name="title_total_rbth">Сумма в кассе</string>
+    <string name="rbth">54 000 KGS</string>
+    <string name="title_rbth">Выручка по часам</string>
+    <string name="product">Салат Трамп</string>
+    <string name="people">В.В.Путин</string>
+    <string name="time_list">13:24</string>
+    <string name="date_list">01/01/2020</string>
+    <string name="percent">40%</string>
+    <string name="date">24 Июня</string>
+    <string name="dn">Пн</string>
+
+    <string-array name="array_date">
+        <item>Сегодня</item>
+        <item>За неделю</item>
+        <item>За месяц</item>
+        <item>За период</item>
+    </string-array>
+</resources>

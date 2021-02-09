@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kg.sunrise.sabs">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".app.GettingStartApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:restoreAnyVersion="true"
+        android:roundIcon="@drawable/ic_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme3"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".TestActivity"></activity>
+        <activity
+            android:name=".ui.reports.tab.activity.CanselsActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask"></activity>
+        <activity
+            android:name=".ui.reports.tab.activity.DishesSoldActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask"></activity>
+        <activity android:name=".ui.restaurant.RestaurantActivity"></activity>
+        <activity android:name=".ui.still.setting.EditRestaurantActivity" />
+        <activity android:name=".ui.still.setting.SettingActivity" />
+        <activity android:name=".ui.start.BillingLoginActivity" />
+        <activity android:name=".ui.start.LoginActivity" />
+        <activity android:name=".ui.start.StartActivity">
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
